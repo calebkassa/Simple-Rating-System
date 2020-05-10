@@ -1,11 +1,9 @@
 # Caleb Kassa
 # This script creates a list of the html pages from all 351 for the past 
 # 6 seasons (retrieved by Jay Emerson). We then create a function that 
-# takes an html page, extracts the information from an html page and 
-# creates a dataframe (borrowing from 'create_df_2020.R'). It then replaces 
-# the html pages Jay fetched with my more recent retrieval in the 'team_pages' 
-# folder. Lastly, we apply the function to all teams and seasons, and combine 
-# them all to create one large dataframe.
+# takes an html page, extracts the desired information from that page and 
+# creates a dataframe. Lastly, we apply the function to all teams and seasons, 
+# and combine them all to create one large dataframe.
 
 files <- dir("WBB_Historic/WBB_multiple", full.names=TRUE, pattern="RData")
 length(files)                                                    # 351
