@@ -1,7 +1,6 @@
 # Caleb Kassa
 # This script fetches each team's html script from the NCAA website 
 # and saves it locally in the folder 'team_pages'.
-# Collaborated with Aedan Lombardo for use of try().
 
 teams <- read.csv("teams.csv", as.is = T)
 
