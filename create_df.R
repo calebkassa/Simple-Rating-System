@@ -98,7 +98,7 @@ summary(df$teamscore)        # A case where a team scores 0 points?
                                 # Confirmed, Southern U. vs Texas Southern: 0-0.
 summary(df$overtime)         # A game with 5 overtimes... Sheesh.
 length(unique(df$opponent))  #
-table(df$location)           # Confirm with others in class on these two.
+table(df$location)           # 
 
 
 # Looks like we're good. Create the csv:
