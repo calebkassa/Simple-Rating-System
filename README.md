@@ -1,5 +1,5 @@
 # Simple-Rating-System
-I scraped the game results of every Division 1 Women's Basketball Game in the last five years from ncaa.stats.org, and used the Simple Rating System to be able to predict the point differential of a game played by two Division 1 teams.
+I scraped the game results of every Division 1 Women's Basketball Game in the last five years from ncaa.stats.org, and used the Simple Rating System to be able to predict the point differential of a game played between two Division 1 teams.
 
 ## team_ids.R
 This script grabs the `team_id` that the NCAA uses as a unique identifier for each team and saves them in 'teams.csv'
